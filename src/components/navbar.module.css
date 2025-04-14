@@ -1,0 +1,82 @@
+/* Nav Variables */
+.navigation {
+  --logo-width: 20%;
+  --navlinks-width: 60%;
+}
+
+/* Nav-Bar styling */
+.navigation {
+    width: 100%;
+    height: var(--nav-height);
+    display: flex;
+}
+  
+.logo {
+  width: var(--logo-width);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 3.5rem;
+}
+
+.navLinks {
+  width: var(--navlinks-width);
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none; /* Remove underline */
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.downbtn {
+  width: calc(100% - var(--logo-width) - var(--navlinks-width));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 14px;
+
+  color: var(--primary-color);
+  font-weight: 500;
+  cursor: pointer;
+
+  border: 1.5px solid var(--primary-color);
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.cv img {
+  height: 1.25rem;
+  background: transparent;
+  filter: invert(49%) sepia(92%) saturate(2918%) hue-rotate(223deg) brightness(103%) contrast(98%);
+}
+
+
+.cv:hover {
+  font-weight: 550;
+  transform: scale(1.02);
+  border: 2px solid var(--primary-color);
+}

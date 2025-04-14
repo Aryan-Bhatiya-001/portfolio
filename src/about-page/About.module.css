@@ -1,0 +1,17 @@
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color-dark);
+}
+
+.about p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  color: var(--text-color-medium);
+} 
