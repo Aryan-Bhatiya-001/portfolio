@@ -8,12 +8,10 @@
   width: 95%;
   height: 90%;
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
 /* Intro Styling */
-
 .intro {
   height: 100%;
   width: var(--intro-width);
@@ -66,7 +64,6 @@
 }
 
 /* Photo Styling */
-
 .photo {
   height: 100%;
   width: calc(100% - var(--intro-width));
