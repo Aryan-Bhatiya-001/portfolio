@@ -4,7 +4,7 @@ import styles from './navbar.module.css'
 function Navbar() {
     return(
         <nav className={styles.navigation}>
-          <div className={`${styles.logo}`}><img src="images/portfolio_logo.png"></img></div>
+          <div className={`${styles.logo}`}><img src="images/portfolio_logo.PNG"></img></div>
           <div className={styles.navLinks}>
             <Link to="/" className={`${styles.btn} h-6`}>Home</Link>
             <Link to="/about" className={`${styles.btn} h-6`}>About</Link>
