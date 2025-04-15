@@ -14,7 +14,7 @@ function ProjectCard(props: ProjectCardProps){
             <div className={styles.info}>
                 <div className={`${styles.title} h-3`}>{props.title}</div>
                 <div className={styles.description}>{props.description}</div>
-                <div className={styles.urlLink} onClick={()=>{window.open(`${props.projectUrl}`, "_blank");}}>View Project<img src='../public/images/link_icon.png'></img></div>
+                <div className={styles.urlLink} onClick={()=>{window.open(`${props.projectUrl}`, "_blank");}}>View Project<img src='images/link_icon.png'></img></div>
             </div>
         </div>
     )

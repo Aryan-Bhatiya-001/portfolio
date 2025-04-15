@@ -17,7 +17,7 @@ function Home() {
 
       <div className={styles.photo}>
         <div className={styles.otr_cir}>
-          <div className={styles.inr_cir}><img src="../public/images/Profile_Photo.png"></img></div>
+          <div className={styles.inr_cir}><img src="images/Profile_Photo.png"></img></div>
         </div>
       </div>
     </div>
