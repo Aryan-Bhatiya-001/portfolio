@@ -6,7 +6,7 @@ function Projects() {
     <div className={styles.project_page}>
 
       <ProjectCard 
-      imageUrl= "../public/images/demo.png" 
+      imageUrl= "images/demo.png" 
       title='Project 1' 
       description='dgwedeqwcgjchgvc ervvev  trbrbgrbrbgrtbg  etwvtrbgrberbrbeb rbrbbrybyerbyrebyetbyet bntyntntrn trntn brqwcqeggv vtberbecwvrwebn etberb vbwb rgbt rbtr b b brbrtbrberyb rwbrwbr ' 
       projectUrl='https://www.google.com'/>
