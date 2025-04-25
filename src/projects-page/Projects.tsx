@@ -7,20 +7,20 @@ function Projects() {
 
       <ProjectCard 
       imageUrl= "images/demo.png" 
-      title='Project 1' 
-      description='dgwedeqwcgjchgvc ervvev  trbrbgrbrbgrtbg  etwvtrbgrberbrbeb rbrbbrybyerbyrebyetbyet bntyntntrn trntn brqwcqeggv vtberbecwvrwebn etberb vbwb rgbt rbtr b b brbrtbrberyb rwbrwbr ' 
-      projectUrl='https://www.google.com'/>
+      title='Search Volume Finder' 
+      description='Work in progress ...' 
+      projectUrl='https://github.com/Aryan-Bhatiya-001/Search_Volume_Finder'/>
 
       <ProjectCard 
       imageUrl='image2' 
       title='Project 2' 
-      description='description2' 
+      description='Work in progress ...' 
       projectUrl='abcd2'/>
 
       <ProjectCard 
       imageUrl='image3' 
       title='Project 3' 
-      description='description3' 
+      description='Work in progress ...' 
       projectUrl='abcd3'/>
 
 

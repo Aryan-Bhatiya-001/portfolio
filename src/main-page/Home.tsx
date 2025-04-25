@@ -11,7 +11,7 @@ function Home() {
           <div className={`${styles.l4} h-5`}>Turning coffee into clean code, keywords into traffic, and monotony into automation.</div>
         </div>
         <div className={styles.hirectr}>
-          <div className={`${styles.hirebtn} h-4`}>Hire Me</div>
+          <div className={`${styles.hirebtn} h-4`} onClick={() => window.open('https://www.linkedin.com/in/aryan-bhatiya', '_blank')}>Hire Me</div>
         </div>
       </div>
 
