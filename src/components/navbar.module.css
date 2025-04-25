@@ -58,14 +58,16 @@
   align-items: center;
   gap: 10px;
   padding: 7px 14px;
-
+  
   color: var(--primary-color);
   font-weight: 500;
   cursor: pointer;
-
+  
   border: 1.5px solid var(--primary-color);
   border-radius: 10px;
   transition: all 0.2s ease-in-out;
+  
+  text-decoration: none;
 }
 
 .cv img {

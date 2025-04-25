@@ -12,7 +12,7 @@ function Navbar() {
             <Link to="/contact" className={`${styles.btn} h-6`}>Contact Me</Link>
           </div>
           <div className={styles.downbtn}>
-            <div className={`${styles.cv} h-6`}><img src="images/download_icon.png"></img>Download CV</div>
+            <a href="Aryan-Resume.docx" download className={`${styles.cv} h-6`}><img src="images/download_icon.png"></img>Download CV</a>
           </div>
         </nav>
     )
