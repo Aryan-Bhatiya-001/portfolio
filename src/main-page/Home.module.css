@@ -1,7 +1,7 @@
 .home {
   --intro-width: 70%;
   --text-height: 70%;
-  --photo-size: 320px;
+  --photo-size: 30vw;
 }
 
 .home {
@@ -91,12 +91,41 @@
   align-items: flex-end;
   border-radius: 99999px 99999px 99999px 99999px;
   
-  border: 35px solid var(--primary-color) !important;
-
+  border: calc(var(--photo-size) * 0.1) solid var(--primary-color) !important;
+  
   box-shadow: 0px 10px 25px 0px rgba(121,134,263, 0.5) inset !important;
 }
 
 
 .photo img {
   width: 105%;
+}
+
+
+
+/* Mobile Styling */
+@media (max-width: 480px) {
+  .home {
+    --photo-size: 40vw;
+    --photo-height: 30%;
+    --text-height: 50%;
+    
+    flex-direction: column-reverse;
+  }
+
+  .photo {
+    width: 100%;
+    height: var(--photo-height);
+    
+    align-items: flex-start;
+
+    padding-top: 0px;
+  }
+
+
+  .intro {
+    width: 100%;
+    height: calc(100% - var(--photo-height));
+  }
+  
 }

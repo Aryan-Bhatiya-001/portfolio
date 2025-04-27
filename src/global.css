@@ -87,3 +87,35 @@ html {
 .b4 {
   font-size: 0.25rem;
 }
+
+
+/* Media Queries */
+
+/* Mobile phones (Portrait) */
+@media (max-width: 480px) {
+  html {
+    font-size: 10px;
+  }
+} 
+
+/* Mobile phones (Landscape) and small tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+/* Tablets and small laptops */
+@media (min-width: 768px) and (max-width: 1023px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Laptops and desktops */
+@media (min-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+}
+

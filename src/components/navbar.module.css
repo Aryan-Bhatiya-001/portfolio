@@ -4,6 +4,10 @@
   --navlinks-width: 60%;
 }
 
+.menuIcon {
+  display: none;
+}
+
 /* Nav-Bar styling */
 .navigation {
     width: 100%;
@@ -20,7 +24,7 @@
 }
 
 .logo img {
-  height: 3.5rem;
+  width: 7.5rem;
 }
 
 .navLinks {
@@ -81,4 +85,39 @@
   font-weight: 550;
   transform: scale(1.02);
   border: 2px solid var(--primary-color);
+}
+
+
+/* Mobile Styling */
+@media (max-width: 480px) {
+  .navLinks {
+    display: none;
+  }
+  .downbtn {
+    display: none;
+  }
+  
+  .navigation {
+    --logo-width: 30%;
+    --menu-icon-width: 20%;
+
+    height: 10%;
+    
+    justify-content: space-between;
+  }
+
+  .menuIcon {
+    width: var(--menu-icon-width);
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menuIcon img {
+    height: 2rem;
+    filter: invert(49%) sepia(92%) saturate(2918%) hue-rotate(223deg) brightness(103%) contrast(98%);
+  }
+  
 }
