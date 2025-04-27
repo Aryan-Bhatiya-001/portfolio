@@ -1,7 +1,7 @@
 .home {
   --intro-width: 70%;
   --text-height: 70%;
-  --photo-size: 30vw;
+  --photo-size: 25vw;
 }
 
 .home {
@@ -93,7 +93,7 @@
   
   border: calc(var(--photo-size) * 0.1) solid var(--primary-color) !important;
   
-  box-shadow: 0px 10px 25px 0px rgba(121,134,263, 0.5) inset !important;
+  box-shadow: 0px calc(var(--photo-size) * 0.05) calc(var(--photo-size) * 0.125)  0px rgba(121,134,263, 0.5) inset !important;
 }
 
 
@@ -107,7 +107,7 @@
 @media (max-width: 480px) {
   .home {
     --photo-size: 40vw;
-    --photo-height: 30%;
+    --photo-height: 25%;
     --text-height: 50%;
     
     flex-direction: column-reverse;
@@ -126,6 +126,16 @@
   .intro {
     width: 100%;
     height: calc(100% - var(--photo-height));
+
+    --text-height: 40%;
+
+    justify-content: space-around;
+  }
+
+  .text > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
 }

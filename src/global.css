@@ -5,7 +5,7 @@
 
 :root {
   --primary-color: #8976FD;
-  --primary-color-rgb: 121, 134, 253
+  --primary-color-rgb: 121, 134, 253;
   --text-color-dark: #332C5C;
   --text-color-medium: #494369;
   --text-color-light: #5E587A;
