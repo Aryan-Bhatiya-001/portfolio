@@ -12,6 +12,9 @@ function Home() {
         </div>
         <div className={styles.hirectr}>
           <div className={`${styles.hirebtn} h-4`} onClick={() => window.open('https://www.linkedin.com/in/aryan-bhatiya', '_blank')}>Hire Me</div>
+          <div className={styles.downbtn}>
+            <a href="Aryan-Resume.docx" download className={`${styles.cv} h-6`}><img src="images/download_icon.png"></img>Download CV</a>
+          </div>
         </div>
       </div>
 
