@@ -130,11 +130,10 @@
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: white;
-    /* background: url(images/background.png);
+    background: url("../public/images/demo.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 
     display: flex;
     flex-direction: column;
