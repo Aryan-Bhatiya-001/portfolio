@@ -1,8 +1,14 @@
-import { Link } from 'react-router-dom'
+import { useState } from 'react';
+import { Link} from 'react-router-dom'
 import styles from './navbar.module.css'
 
+
 function Navbar() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+
+  
     return(
+      <>
         <nav className={styles.navigation}>
           <div className={`${styles.logo}`}><img src="images/portfolio_logo.PNG"></img></div>
 
@@ -18,8 +24,25 @@ function Navbar() {
           </div>
 
           {/* in case of mobile */}
-          <div className={styles.menuIcon}><img src="images/hamburger-menu.png"></img></div>
+          <div className={styles.menuIcon} onClick={()=>{setIsMobileMenuOpen(!isMobileMenuOpen);}}><img src="images/hamburger-menu.png"></img></div>
+        
         </nav>
+
+
+        {/* menu */}
+
+        {isMobileMenuOpen && (
+        <div className={styles.menu}>
+          <div className={styles.closebtn} onClick={()=>{setIsMobileMenuOpen(false);}}><img src="images/close_icon.png"></img></div>
+          <div className={styles.menuLinks}>
+            <Link to="/" className={`${styles.btn} h-4`} onClick={()=>{setIsMobileMenuOpen(false);}}>Home</Link>
+            <Link to="/about" className={`${styles.btn} h-4`} onClick={()=>{setIsMobileMenuOpen(false);}}>About</Link>
+            <Link to="/projects" className={`${styles.btn} h-4`} onClick={()=>{setIsMobileMenuOpen(false);}}>Projects</Link>
+            <Link to="/contact" className={`${styles.btn} h-4`} onClick={()=>{setIsMobileMenuOpen(false);}}>Contact Me</Link>
+          </div>
+        </div>
+        )}
+      </> 
     )
 }
 
