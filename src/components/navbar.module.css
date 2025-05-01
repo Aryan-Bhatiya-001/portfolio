@@ -130,10 +130,7 @@
     top: 0;
     left: 0;
     z-index: 100;
-    background: url("../public/images/demo.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url("/images/demo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
