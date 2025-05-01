@@ -94,21 +94,21 @@ html {
 /* Mobile phones (Portrait) */
 @media (max-width: 480px) {
   html {
-    font-size: 15px;
+    font-size: 13px;
   }
 } 
 
 /* Mobile phones (Landscape) and small tablets */
 @media (min-width: 481px) and (max-width: 767px) {
   html {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
 /* Tablets and small laptops */
 @media (min-width: 768px) and (max-width: 1023px) {
   html {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
