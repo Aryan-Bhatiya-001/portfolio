@@ -47,10 +47,10 @@
 }
 
 .what_i_m_into {
-  padding-top: 5rem;
+  padding-top: 7rem;
 }
 
-.what_i_m_into .heading {
+.heading {
   text-decoration: underline;
 
   display: flex;
@@ -58,4 +58,78 @@
   align-items: center;
 
   padding-bottom: 2rem;
+}
+
+.tech_stack {
+  padding-top: 7rem;
+
+  width: 100%;
+}
+
+.stack {
+  width: 100%;
+  height: 10rem;
+
+  border-radius: 5px;
+
+  border: 2px solid var(--primary-color);
+
+  margin-bottom: 1.5rem;
+
+  display: flex;
+  align-items: center;
+
+  --width-title: 23%;
+}
+
+.title {
+  height: 80%;
+  width: var(--width-title);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 1.25rem;
+
+  border-right: 1px solid var(--primary-color);
+}
+
+.title img {
+  height: 3rem;
+}
+
+.list {
+  width: calc(100% - var(--width-title));
+  height: 80%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list img {
+  height: 4rem;
+}
+
+.frontend .list img:nth-child(5) {
+  height: 3rem;
+}
+
+.backend .list img:nth-child(2) {
+  height: 5rem;
+}
+
+.database .list img:nth-child(1) {
+  height: 6rem;
+}
+
+.ai .list img:nth-child(1) {
+  height: 1rem;
+}
+
+.ai .list img:nth-child(2) {
+  height: 6rem;
 }

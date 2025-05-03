@@ -13,6 +13,7 @@ function About() {
           But soon I realised that I hated Electrical Engineering{"(of which Instrumentation is a part off)"} and will
           not survive in IIT and hence droped out of it in my 2nd year.</p>
           <p>I traded my career to keep my Curiosity and Interest intact .</p>
+          <p>- A bit risky, A bit confused and A lot excited !</p>
         </div>
       </div>
 
@@ -28,9 +29,65 @@ function About() {
         <p>- 📊 Anything related to SEO and Web Scrapping/Crwaling.</p>
         <p>- 🤖 Some AI, Automation Projects.</p>
         <p>- 🌟 Open Sourse Projects that creates positive impact in any way.</p>
-
-        A bit risky, a bit confused and a lot excited !
       </div>
+
+      <div className={styles.tech_stack}>
+        <div className={`${styles.heading} h-2`}>Tech Stack</div>
+
+        <div className={`${styles.stack} styles.{programming}`}>
+          <div className={styles.title}><img src="images/programming.png"></img>Programming</div>
+          <div className={styles.list}>
+            <img src="images/python.png"/>
+            <img src="images/C.png"/>
+          </div>
+        </div>
+        <div className={`${styles.stack} ${styles.frontend}`}>
+          <div className={styles.title}><img src="images/frontend.png"></img>Frontend</div>
+          <div className={styles.list}>
+            <img src="images/html.png"/>
+            <img src="images/css.png"/>
+            <img src="images/javascript.png"/>
+            <img src="images/react.png"/>
+            <img src="images/tailwind.png"/>
+          </div>
+        </div>
+        <div className={`${styles.stack} ${styles.backend}`}>
+          <div className={styles.title}><img src="images/backend.png"></img>Backend</div>
+          <div className={styles.list}>
+            <img src="images/fastapi.png"/>
+            <img src="images/node.png"/>
+          </div>
+        </div>
+        <div className={`${styles.stack} ${styles.database}`}>
+          <div className={styles.title}><img src="images/database.png"></img>Database</div>
+          <div className={styles.list}>
+            <img src="images/supabase.png"/>
+          </div>
+        </div>
+        <div className={`${styles.stack} ${styles.devops}`}>
+          <div className={styles.title}><img src="images/devops.png"></img>Dev-Ops</div>
+          <div className={styles.list}>
+            <img src="images/git.png"/>
+            <img src="images/github.png"/>
+          </div>
+        </div>
+        <div className={`${styles.stack} ${styles.ai}`}>
+          <div className={styles.title}><img src="images/ai.png"></img>AI and Automation</div>
+          <div className={styles.list}>
+            <img src="images/anthropic.png"/>
+            <img src="images/playwright.png"/>
+            <img src="images/crawl4ai.png"/>
+          </div>
+        </div>
+        <div className={`${styles.stack} ${styles.seo}`}>
+          <div className={styles.title}><img src="images/SEO.png"></img>SEO</div>
+          <div className={`${styles.list} h-4`}>
+            <p>Technical SEO</p>
+            <p>Site Archetecture and Crawling</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }
