@@ -27,7 +27,7 @@ function About() {
         <p>- 🌐 Anything related to Web Development.</p>
         <p>- 📊 Anything related to SEO and Web Scrapping/Crwaling.</p>
         <p>- 🤖 Some AI, Automation Projects.</p>
-        <p>- 🌟 Open Sourse Projects that creates positive impact in any way.</p>
+        <p>- 🌟 Open Sourse Projects.</p>
       </div>
 
       <div className={styles.tech_stack}>
