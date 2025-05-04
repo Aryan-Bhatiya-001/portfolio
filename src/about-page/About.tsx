@@ -9,10 +9,9 @@ function About() {
         <div className={`${styles.about_me_text} h-4`}>
           <p>Hi I am Aryan and I suck at Communication !</p>
           <p>My journey started in 10th grade when I decided to aspire for IITs and spent 3 years of my teenage in preparation of it.
-          Finally after some luck and hard work cracked it and got into B.Tech Instrumentation Engineering at IIT Kharagpur.
-          But soon I realised that I hated Electrical Engineering{"(of which Instrumentation is a part off)"} and will
-          not survive in IIT and hence droped out of it in my 2nd year.</p>
-          <p>I traded my career to keep my Curiosity and Interest intact .</p>
+          Finally after some luck and some hard work cracked it and got into B.Tech Instrumentation Engineering at IIT Kharagpur.
+          But soon I realised that I didn't like Electrical Engineering and hence droped out of it in my 2nd year.</p>
+          <p>I enjoy learning and exploring, and see every obstacle and setback as an opportunity to grow and improve myself.</p>
           <p>- A bit risky, A bit confused and A lot excited !</p>
         </div>
       </div>
