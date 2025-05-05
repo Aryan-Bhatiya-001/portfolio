@@ -20,7 +20,7 @@ function Navbar() {
             <Link to="/contact" className={`${styles.btn} h-6`}>Contact Me</Link>
           </div>
           <div className={styles.downbtn}>
-            <a href="Aryan-Resume.docx" download className={`${styles.cv} h-6`}><img src="images/download_icon.png"></img>Download CV</a>
+            <a href="Aryan-Resume-hidden.docx" download className={`${styles.cv} h-6`}><img src="images/download_icon.png"></img>Download CV</a>
           </div>
 
           {/* in case of mobile */}
